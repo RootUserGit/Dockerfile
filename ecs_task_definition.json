@@ -1,8 +1,8 @@
 {
     "containerDefinitions": [
         {
-            "name": "nginx",
-            "image": "821024793093.dkr.ecr.us-east-1.amazonaws.com/dockerfile",
+            "name": "",
+            "image": "",
             "cpu": 0,
             "portMappings": [
                 {
@@ -18,9 +18,9 @@
             "volumesFrom": []
         }
     ],
-    "family": "dockerfile_1",
-    "taskRoleArn": "arn:aws:iam::821024793093:role/ecsTaskExecutionRole",
-    "executionRoleArn": "arn:aws:iam::821024793093:role/ecsTaskExecutionRole",
+    "family": "",
+    "taskRoleArn": "",
+    "executionRoleArn": "",
     "networkMode": "awsvpc",
     "volumes": [],
     "cpu": "1024",
